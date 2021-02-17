@@ -14,9 +14,9 @@ import { rhythm } from "../utils/typography"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 100, height: 100) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -43,25 +43,38 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author.name}
-        style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
+      <div className="hidden-mob">
+        <Image
+          fixed={data.avatar.childImageSharp.fixed}
+          alt={author.name}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            minWidth: 100,
+            borderRadius: `10%`,
+          }}
+          imgStyle={{
+            borderRadius: `10%`,
+          }}
+        />
+      </div>
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        Written by{" "}
+        <strong style={{ color: "var(--textLink)" }}>{author.name}</strong>{" "}
+        {author.summary}.{` `}
+        <br />
+        <p>
+          You can follow me on{" "}
+          <a href={`https://twitter.com/${social.twitter}`}>Twitter</a> or{" "}
+          <a href={`https://twitter.com/${social.instagram}`}>Instagram</a>, see
+          some of my work on{" "}
+          <a href={`https://twitter.com/${social.github}`}>GitHub</a>, or read
+          more about me on{" "}
+          <a href={`https://twitter.com/${social.linkedin}`}>LinkedIn</a>.
+          <br />
+          Please feel free to reach me via email at{" "}
+          <a href="mailto: armanabkar@gmail.com">armanabkar@gmail.com</a>.
+        </p>
       </p>
     </div>
   )
