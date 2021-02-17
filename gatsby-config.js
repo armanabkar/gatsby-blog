@@ -7,7 +7,7 @@ module.exports = {
       summary: `Software Developer from Los Angeles, California`,
     },
     description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
-    siteUrl: `https://armanabkar.github.io/leonids`,
+    siteUrl: `https://armanabkar.github.io/gatsby-blog`,
     social: {
       twitter: `armanabkar`,
       linkedin: `armanabkar`,
