@@ -40,7 +40,10 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: rhythm(2),
+        border: "2px dashed var(--textLink)",
+        padding: "0.7rem 0.7rem 0 0.7rem",
+        borderRadius: "8px",
       }}
     >
       <div className="hidden-mob">
@@ -58,7 +61,7 @@ const Bio = () => {
           }}
         />
       </div>
-      <p>
+      <p style={{ marginBottom: "0.7rem" }}>
         Written by{" "}
         <strong style={{ color: "var(--textLink)" }}>{author.name}</strong>{" "}
         {author.summary}.{` `}
