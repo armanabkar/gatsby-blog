@@ -2,7 +2,7 @@
   "name": "gatsby-blog",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Arman Abkar <armanabkar@gmail.com>",
   "bugs": {
     "url": "https://github.com/armanabkar/gatsby-blog/issues"
