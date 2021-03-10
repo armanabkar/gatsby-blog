@@ -1,0 +1,346 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:var(--hr);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:var(--textLink);text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.anchor{box-shadow:none;}a.anchor svg[aria-hidden="true"]{stroke:var(--textLink);}</style><style data-href="/gatsby-blog/styles.7838cf8cd326023d8de9.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/gatsby-blog/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/gatsby-blog/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/gatsby-blog/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/gatsby-blog/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/gatsby-blog/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/gatsby-blog/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/gatsby-blog/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/gatsby-blog/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/gatsby-blog/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/gatsby-blog/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/gatsby-blog/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/gatsby-blog/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/gatsby-blog/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/gatsby-blog/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/gatsby-blog/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/gatsby-blog/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/gatsby-blog/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/gatsby-blog/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/gatsby-blog/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/gatsby-blog/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/gatsby-blog/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/gatsby-blog/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/gatsby-blog/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/gatsby-blog/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/gatsby-blog/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/gatsby-blog/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/gatsby-blog/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/gatsby-blog/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/gatsby-blog/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/gatsby-blog/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/gatsby-blog/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/gatsby-blog/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/gatsby-blog/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/gatsby-blog/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/gatsby-blog/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#ccc;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}.border{border-width:1px}.block{display:block}.flex{display:flex}.hidden{display:none}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.leading-none{line-height:1}.p-1{padding:.25rem}.p-4{padding:1rem}.fixed{position:fixed}.relative{position:relative}.text-center{text-align:center}.underline{text-decoration:underline}.transition{transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform}.ease-out{transition-timing-function:cubic-bezier(0,0,.2,1)}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes bounce{0%,to{transform:translateY(-25%);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);animation-timing-function:cubic-bezier(0,0,.2,1)}}body{--bg:#f0f3f5;--lightBg:#e8e8e8;--textNormal:#3b3936;--textTitle:#1d2930;--hr:rgba(3,2,2,0.2);background-color:var(--bg)}body,body.dark{--textLink:#607d8b}body.dark{-webkit-font-smoothing:antialiased;--bg:#252525;--lightBg:#191919;--textNormal:#eee;--textTitle:#dcdcdc;--hr:hsla(0,0%,100%,0.2)}a.gatsby-resp-image-link{color:var(--bg);transition:all .2s ease}a.gatsby-resp-image-link:hover{cursor:pointer;transform:translateY(-2px);box-shadow:0 6px 13px 2px rgba(0,0,0,.25)}blockquote,h1,h2,h3,h4,h5,h6{color:var(--textTitle)}.footnotes{word-break:break-all}button{border:none;margin:0;padding:0;width:auto;overflow:visible;background:transparent;cursor:pointer;color:inherit;font:inherit;line-height:normal;-webkit-font-smoothing:inherit;-moz-osx-font-smoothing:inherit;-webkit-appearance:none;outline:0}.sidebar{height:200px;width:100%;position:fixed;z-index:1;top:0;left:0;overflow-x:hidden;text-align:center;background-color:var(--lightBg)}.main-content{background-color:var(--bg);position:absolute;top:200px;z-index:10;padding:0 20px;margin-left:0;max-width:100%}@media only screen and (min-width:768px){.sidebar{height:100vh;width:380px}.main-content{padding:0 100px;height:100vh;width:calc(100% - 380px);margin-left:380px;top:0}}code{font-family:SF Mono,menlo,inconsolata,monospace;font-size:calc(1em - 2px);font-weight:600;padding:.2em .4em;border-radius:2px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}pre{border-radius:8px!important;margin:1em 0!important}pre code{padding:0}.text-center{padding-bottom:.8rem}a{box-shadow:none;transition:color .15s linear}a:hover{color:var(--textNormal)}::-webkit-scrollbar{width:12px;overflow:auto}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background-color:var(--textLink);border-radius:20px;border:3px solid var(--bg)}@media (max-width:768px){.hidden-mob{display:none}}@media (min-width:768px){.md\:h-screen{height:100vh}}</style><meta name="generator" content="Gatsby 2.24.47"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/gatsby-blog/rss.xml"/><link rel="icon" href="/gatsby-blog/favicon-32x32.png?v=d1479c26d1161fa57cc3e02f286f3671" type="image/png"/><link rel="manifest" href="/gatsby-blog/manifest.webmanifest"/><meta name="theme-color" content="#2196f3"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsby-blog/icons/icon-48x48.png?v=d1479c26d1161fa57cc3e02f286f3671"/><link rel="apple-touch-icon" sizes="72x72" href="/gatsby-blog/icons/icon-72x72.png?v=d1479c26d1161fa57cc3e02f286f3671"/><link rel="apple-touch-icon" sizes="96x96" href="/gatsby-blog/icons/icon-96x96.png?v=d1479c26d1161fa57cc3e02f286f3671"/><link rel="apple-touch-icon" sizes="144x144" href="/gatsby-blog/icons/icon-144x144.png?v=d1479c26d1161fa57cc3e02f286f3671"/><link rel="apple-touch-icon" sizes="192x192" href="/gatsby-blog/icons/icon-192x192.png?v=d1479c26d1161fa57cc3e02f286f3671"/><link rel="apple-touch-icon" sizes="256x256" href="/gatsby-blog/icons/icon-256x256.png?v=d1479c26d1161fa57cc3e02f286f3671"/><link rel="apple-touch-icon" sizes="384x384" href="/gatsby-blog/icons/icon-384x384.png?v=d1479c26d1161fa57cc3e02f286f3671"/><link rel="apple-touch-icon" sizes="512x512" href="/gatsby-blog/icons/icon-512x512.png?v=d1479c26d1161fa57cc3e02f286f3671"/><title data-react-helmet="true">Essential Books for Programmers | Gatsby</title><meta data-react-helmet="true" name="description" content="If you&#x27;re a programmer, you need to read more than just code..."/><meta data-react-helmet="true" property="og:title" content="Essential Books for Programmers"/><meta data-react-helmet="true" property="og:description" content="If you&#x27;re a programmer, you need to read more than just code..."/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="armanabkar"/><meta data-react-helmet="true" name="twitter:title" content="Essential Books for Programmers"/><meta data-react-helmet="true" name="twitter:description" content="If you&#x27;re a programmer, you need to read more than just code..."/><link as="script" rel="preload" href="/gatsby-blog/webpack-runtime-6cd8cae516f473207254.js"/><link as="script" rel="preload" href="/gatsby-blog/framework-885503946ee98043c7bd.js"/><link as="script" rel="preload" href="/gatsby-blog/app-67995abe061465c7547b.js"/><link as="script" rel="preload" href="/gatsby-blog/styles-9b6f388623a2ec93d35f.js"/><link as="script" rel="preload" href="/gatsby-blog/547d6747ad54289c4cf011054cc421f3a7a5d337-6f90eab60dfd614a8b87.js"/><link as="script" rel="preload" href="/gatsby-blog/component---src-templates-blog-post-js-b02d96b27e6a5886c4e8.js"/><link as="fetch" rel="preload" href="/gatsby-blog/page-data/essential-books-for-programmers/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsby-blog/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsby-blog/page-data/sq/d/3445717308.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsby-blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><script>
+void function() {
+  window.__onThemeChange = function() {}
+
+  var preferredTheme
+  try {
+    preferredTheme = localStorage.getItem('theme')
+  } catch (err) { }
+
+  function setTheme(newTheme) {
+    if (preferredTheme && document.body.classList.contains(preferredTheme)) {
+      document.body.classList.replace(preferredTheme, newTheme)
+    } else {
+      document.body.classList.add(newTheme)
+    }
+
+    window.__theme = newTheme
+    preferredTheme = newTheme
+    window.__onThemeChange(newTheme)
+  }
+
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme)
+    try {
+      localStorage.setItem('theme', newTheme)
+    } catch (err) {}
+  }
+
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)')
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  })
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'))
+}()
+    </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="background-color:var(--bg);color:var(--textNormal);transition:color 0.2s ease-out, background 0.2s ease-out;min-height:100vh"><div class="sidebar"><div class="md:h-screen p-4 flex flex-col justify-center items-center" style="min-height:200px"><h2 style="font-size:2.5rem;line-height:3.5rem;margin-bottom:0;margin-top:0;font-family:Montserrat, sans-serif"><a style="box-shadow:none;color:inherit" href="/gatsby-blog/">Home</a></h2></div></div><div class="main-content relative"><main><article><header><h1 style="margin-bottom:0">Essential Books for Programmers</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">February 04, 2021</p></header><section><h2 align="center">
+  <img src="https://dzone.com/storage/temp/12272589-reading-super-hero.jpg" width="500px">
+  <br>
+</h2>
+<blockquote>
+<p>Even super heroes need to read to stay on top of their game.</p>
+</blockquote>
+<p>Books are a great source of knowledge and wisdom. But unfortunately, there are very few people reading books today. A programmer reading books is an even rarer occurrence, most often relying on the internet search results to find answers.</p>
+<p>Technology is moving forward at a pace faster than anytime in the history of mankind. There are new programming languages and tools every few months, aspiring to be the silver bullet for all shortcoming of existing languages, tools and methodologies.</p>
+<p>The truth is that many a great minds of the yester years have already encountered the very same problems and have figured out the best ways to solve them. The tactics to approach and solve the problems have been captured in some wonderful books.</p>
+<p>Here’s a select subset of these great books that developer in the industry should read.</p>
+<h2>The Pragmatic Programmer</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=020161622X&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>A gem of a book! This is not your regular programming book with code, code and more code. In fact this is not about any particular programming language at all: the wisdom in this book applies to all programming languages.</p>
+<p>The insights in this book span across a number of interesting areas such as “tracer bullets,” a variety of exploratory programming, writing code that writes code, separating views from models, expensive tools do not produce better designs, developing a great team, managing expectations, avoiding duplicate knowledge etc.</p>
+<p>Not only will this book change your coding habits, it will also change your personality as a programmer. It is filled with practical advice on getting the best of both you and your code.</p>
+<p>Also included is a pamphlet that summarizes the tips and checklists.</p>
+<h2>Clean Code: A Handbook of Agile Software Craftsmanship</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0132350882&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>Ever looked at someone’s code and went “Oh My God, What is this?” Rest assured, that someone hasn’t read Clean Code.</p>
+<p>An epic book on software craftsmanship. The book not only tells you how to write good code, but also an effective way to develop and approach software development. It is sure to change your outlook on work.</p>
+<p>The book describes the principles, patterns, and practices of writing clean code. Several case studies of cleaning up code are valuable lessons to any developer.</p>
+<p>Note that all examples in this book are in Java, although the learnings can be applied to any programming language.</p>
+<p>Among the books listed in this post, this is a fairly new entrant and may resonate more with the younger developers.</p>
+<h2>The Clean Coder: A Code of Conduct for Professional Programmers</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0137081073&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>The second book from Rob Martin in this list. We recommend that you read this book after “Clean Code”. Whilst “Clean Code” is about the code, this is about the “Coder”.</p>
+<p>The book explores topics that programmers often ignore.</p>
+<ul>
+<li>What does being professional programmer mean?</li>
+<li>How to carry yourself as a true software craftsman</li>
+<li>Dealing with conflict and tight schedules</li>
+<li>How to manage your time? How can you expand your skills?</li>
+<li>When to say “No”</li>
+<li>Avoiding burnout</li>
+<li>..and more.</li>
+</ul>
+<p>You may not always agree with the author but it provides good food for thought. It might be not what you expect, but may just be what you need.</p>
+<h2>Clean Architecture: A Craftsman’s Guide to Software Structure and Design</h2>
+<h2 align="center">
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--sOCY4hVI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/jeoyr1agokp3k43qtrzx.jpg" width="180px">
+  <br>
+</h2>
+<ul>
+<li>Learn what software architects need to achieve–and core disciplines and practices for achieving it</li>
+<li>Master essential software design principles for addressing function, component separation, and data management</li>
+<li>See how programming paradigms impose discipline by restricting what developers can do</li>
+<li>Understand what’s critically important and what’s merely a “detail”</li>
+<li>Implement optimal, high-level structures for web, database, thick-client, console, and embedded applications</li>
+<li>Define appropriate boundaries and layers, and organize components and services</li>
+<li>See why designs and architectures go wrong, and how to prevent (or fix) these failures</li>
+</ul>
+<h2>Refactoring: Improving the Design of Existing Code</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0201485672&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>No matter how hard you try, the code you deliver will not be the most optimal unless improvements are made to it. Refactoring is to be made even if it working as expected.</p>
+<p>The book starts with general principles of refactoring: why and when to refactor, how to approach management about refactoring etc. The book then takes you through a tour of how make the improvements happen.</p>
+<ul>
+<li>What are the indicator of bad smells in the code?</li>
+<li>How to structure classes, methods and other logical pieces?</li>
+<li>Unit tests for your code</li>
+<li>How to move features from one object to another?</li>
+<li>Refactoring tools</li>
+<li>..and more</li>
+</ul>
+<p>A must read book on anyone on how to improve your existing code. Note that all code examples are in Java, but it shouldn’t prevent you from grabbing a copy today!</p>
+<h2>Working Effectively With Legacy Code</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0131177052&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>We all have to work on something we hate - for most, it is working with legacy code. Nothing is more real in any job than legacy code.</p>
+<p>How to modify legacy code? How to identify parts of the code to refactor? How to break dependencies between code you want to refactor? How to make sure the new code is doing what is expected? How do you take small steps at a time to refactor legacy code?</p>
+<p>They are just some of the key questions answered in this brilliant book. If I have to summarize the essence of the book in a line, it would be “Write unit tests, refactor code, make sure tests are passing.”</p>
+<blockquote>
+<p>Legacy code is not a myth; it is a living legend! Nothing in the software industry has survived the test of times better than Legacy code.
+— Deepak Karanth</p>
+</blockquote>
+<h2>Programming Pearls</h2>
+<h2 align="center">
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--MVXuut97--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/fa7x5erzt1qryzis8784.jpg" width="180px">
+  <br>
+</h2>
+<p>Computer programming has many faces. Fred Brooks paints the big picture in The Mythical Man Month; his essays underscore the crucial role of management in large software projects. At a finer grain, Steve McConnell teaches good programming style in Code Complete. The topics in those books are the key to good software and the hallmark of the professional programmer. Unfortunately, though, the workmanlike application of those sound engineering principles isn’t always thrilling — until the software is completed on time and works without surprise.</p>
+<p>The columns in this book are about a more glamorous aspect of the profession: programming pearls whose origins lie beyond solid engineering, in the realm of insight and creativity. Just as natural pearls grow from grains of sand that have irritated oysters, these programming pearls have grown from real problems that have irritated real programmers. The programs are fun, and they teach important programming techniques and fundamental design principles.</p>
+<h2>Code Complete: A Practical Handbook of Software Construction</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0735619670&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>A mammoth piece of work, a must read for anyone who wants to read all about programming constructs and best practices. Truly an encyclopaedic book - 960 pages in its most recent revision! Don’t let the length of the book deter you, you can consume it at your own pace. In the end, you will be thankful you read the book.</p>
+<p>Every aspect of software development is explained in the book. Practical advice on everything ranging from code structure, code formatting, variable. method and class naming, all the way up to managing a team.</p>
+<p>A wealth of references and additional materials covering specific topics in are provided and they are worth a read as well.</p>
+<p>Only a small percentage of software developers would have read this book, so you surely have an advantage if you read this one. You can gain many a years worth of experience just by reading this book.</p>
+<h2>The Art of Computer Programming</h2>
+<h2 align="center">
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--B-HdSyB9--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/26n7ggpj2vnte6s7s7b9.jpg" width="180px">
+  <br>
+</h2>
+<p>This magnificent tour de force presents a comprehensive overview of a wide variety of algorithms and the analysis of them. Now in its third edition, The Art of Computer Programming… contains substantial revisions by the author and includes numerous new exercises.</p>
+<p>Although this book was conceived several decades ago, it is still a timeless classic. One of the book’s greatest strengths is the wonderful collection of problems that accompany each chapter. The author has chosen problems carefully and indexed them according to difficulty. Solving a substantial number of these problems will help you gain a solid understanding of the issues surrounding the given topic. Furthermore, the exercises feature a variety of classic problems.</p>
+<h2>Structure and Interpretation of Computer Programs</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2017/12/structureandinterpretationofcomputerprograms.jpg?ezimgfmt=rs:200x290/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>I debated putting this one on the list. Is it really foundational? It depends on how solid of a foundation you want to have. If you want to have a really solid foundation, then the answer is a resounding “yes.”</p>
+<p>I debated putting this one on the list. Is it really foundational? It depends on how solid of a foundation you want to have. If you want to have a really solid foundation, then the answer is a resounding “yes.”</p>
+<p>The book is challenging. It deals with functional programming. It was written for the famous introductory programming course at MIT. I’d recommend you not only <em>read</em> this book, but also go through all the exercises in it. It will be a difficult journey, but you’ll come out the other side a much better programmer than you were before.</p>
+<h2>Design Patterns: Elements of Reusable Object-Oriented Software</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/Design-Patterns-Elements-of-Reusable-Object-Oriented-Software.jpg?ezimgfmt=rs:200x252/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>This classical book is critical reading to really understand what design patterns are and become familiar with the most common design patterns you are likely to encounter in your career. It’s not a particularly easy read, and the descriptions and examples might be a bit difficult to follow—especially if you don’t have a solid grasp of UML—but it’s a book I consider a “must read.” If you are having trouble with this book, you might want to start with “Head First Design Patterns,” which teaches the design patterns in this book in a much more digestible way—still, there is no substitute for the original.</p>
+<h2>Compilers: Principles, Techniques, and Tools</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/Compilers-Principles-Techniques-and-Tools.jpg?ezimgfmt=rs:200x303/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>This book is known as the dragon book—and for good reason.</p>
+<p>It goes down deep into places where the dragons live: in the realm of compilers and operating systems.</p>
+<p>Some of the information might be a bit dated, but if you are really interested in how compilers work and perhaps want to write your own, take a crack at this book.</p>
+<h2>Head First Design Patterns</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0596007124&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>The most non-technical looking book on programming! Each page contains doodles, pictures and other eye-catching stuff. That might give the impression that it is a light read, but that fact is that it is discussing quite a core topic about programming - Design patterns - and does a great job in covering the subject.</p>
+<p>The book does not try to cover all the patterns that exist in the world, rather it covers every pattern that you might need to solve real world problems. It will help you create functional, elegant, reusable, and flexible software. The trade-off for each patterns have been clearly pointed out. Most books on design pattern talk about how to implement the pattern, but the authors of this book also explain the why and the how.</p>
+<p>The latest edition of the book now includes updates for Java 8 - mainly the Lambda.</p>
+<h2>Introduction to Algorithms, Third Edition</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/Introduction-to-Algorithms-Third-Edition.jpg?ezimgfmt=rs:200x276/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>This book is considered one of the best books on learning algorithms, and for good reason. It is a solid programming book for anyone interested in increasing their ability to write and understand algorithms, which is the core of writing code. If you are going to read any book on algorithms, start with this one for sure.</p>
+<h2>Cracking the Coding Interview: 189 Programming Questions and Solutions</h2>
+<h2 align="center">
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--JDW3odeu--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/glfijew89yb3sxnxiznu.jpg" width="180px">
+  <br>
+</h2>
+<ul>
+<li>189 programming interview questions, ranging from the basics to the trickiest algorithm problems.</li>
+<li>A walk-through of how to derive each solution, so that you can learn how to get there yourself.</li>
+<li>Hints on how to solve each of the 189 questions, just like what you would get in a real interview.</li>
+<li>Five proven strategies to tackle algorithm questions, so that you can solve questions you haven’t seen.</li>
+<li>Extensive coverage of essential topics, such as big O time, data structures, and core algorithms.</li>
+<li>A behind-the-scenes look at how top companies like Google and Facebook hire developers.</li>
+<li>Techniques to prepare for and ace the soft side of the interview: behavioral questions.</li>
+<li>For interviewers and companies: details on what makes a good interview question and hiring process.</li>
+</ul>
+<h2>Peopleware: Productive Projects and Teams</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0321934113&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>A stunning piece of work. This is not a book about programming. This is a book about managing and motivating programmers. It should be read by developers too. Many a times, developers, especially inexperienced ones don’t understand the thought process of management.</p>
+<p>Software development is a creative process. But most managers treat it as assembly line process. Developers are seen as interchangeable cogs in the machine. Managers generally see giving tight deadlines as the only way to increase motivation. They do not take interest in the work developers do and sadly, not try to understand the developers.</p>
+<p>If you are a manager who wants quality and not only quantity, read this book now!</p>
+<p>The authors explain how managers can enable their software teams to realize their potential in a sustainable manner.</p>
+<h2>Domain-Driven Design: Tackling Complexity in the Heart of Software</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2015/03/domain-driven-design.jpg?ezimgfmt=rs:200x265/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>Buckle your seat belt, this is a difficult read. The first time I read this book, I didn’t get it. The second time I read it, I sort of got it. It wasn’t until my third pass through the book that it finally clicked all the way. This book will help you learn how to create a maintainable architecture that is based on domain modeling. Once you learn what is in this book, you can’t go back. You won’t think about software development architecture in the same way again.</p>
+<h2>Patterns of Enterprise Application Architecture</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/Patterns-of-Enterprise-Application-Architecture.jpg?ezimgfmt=rs:200x257/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>If you are doing any kind of enterprise application development, you’ll find this book extremely useful. It contains great information about how to design and build an enterprise application from start to finish. What I found most useful, though, were the many patterns contained in the book that are often seen in enterprise applications. This is a book I referenced all the time when I was building large enterprise applications for my job.</p>
+<h2>Agile Software Development, Principles, Patterns, and Practices</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2015/03/agile-software-development-809x1024.jpg?ezimgfmt=rs:200x253/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>Yes, this is another Bob Martin book, and it is excellent. This book takes you through all the core tenets of Agile development without all the fluff. Not only that, but it also introduces the SOLID design principles that are fundamental to understanding how to write clean, maintainable code. This book was the book that convinced me to actually start doing pair programming.</p>
+<h2>Functional-Light JavaScript</h2>
+<h2 align="center">
+  <img src="https://github.com/getify/Functional-Light-JS/raw/master/manuscript/images/marketing/front-cover-small.png" width="180px">
+  <br>
+</h2>
+<p>“Functional-Light JavaScript” explores the core principles of functional programming (FP) as they are applied to JavaScript. But what makes this book different is that we approach these principles without drowning in all the heavy terminology. We look at a subset of FP foundational concepts that I call “Functional-Light Programming” (FLP) and apply it to JavaScript.</p>
+<p>Note: Despite the word “Light” in the title, I do not consider or recommend this book as a “beginner”, “easy”, or “intro” book on the topic. This book is rigorous and full of gritty detail; it expects a solid foundation of JS knowledge before diving in. “Light” means limited in scope; instead of being more broad, this book goes much deeper into each topic than you typically find in other FP-JavaScript books.</p>
+<p>Let’s face it: unless you’re already a member of the FP cool kids club (I’m not!), a statement like, “a monad is just a monoid in the category of endofunctors”, just doesn’t mean anything useful to us.</p>
+<p>That’s not to say the terms are meaningless or that FPrs are bad for using them. Once you graduate from Functional-Light, you’ll maybe/hopefully want to study FP more formally, and you’ll certainly have plenty of exposure to what they mean and why.</p>
+<p>But I want you to be able to apply some of the fundamentals of FP to your JavaScript now, because I believe it will help you write better, more reasonable code.</p>
+<blockquote>
+<p>by Kyle Simpson</p>
+</blockquote>
+<p><a href="https://github.com/getify/Functional-Light-JS">Check out Functional-Light JavaScript on GitHub.</a></p>
+<h2>You Don’t Know JS</h2>
+<h2 align="center">
+  <img src="https://coder-coder.com/wp-content/uploads/2018/09/you-dont-know-js-kyle-simpson.png" width="180px">
+  <br>
+</h2>
+<p>There are a lot of JavaScript books out there, and a lot of them are really big. You Don’t Know JS isn’t a huge textbook– it’s a series of six small books, all dedicated to a specific topic in JavaScript. There’s no fluff, just the essential core information.</p>
+<p>These are perfect if you’re a beginner, because Kyle Simpson does a great job of explaining concepts in a way that’s easy to understand. And the best part is, you can read them all online for free on GitHub! Of course, if you like physical books (which I find handy to have next to the computer) you can order them online.</p>
+<p><a href="http://youdontknowjs.com/">Check out You Don’t Know JS Yet on GitHub.</a></p>
+<h2>Don’t Make Me Think</h2>
+<h2 align="center">
+  <img src="https://coder-coder.com/wp-content/uploads/2018/09/dont-make-me-think-steve-krug.jpg" width="180px">
+  <br>
+</h2>
+<p>Heard of terms like UX (user experience) or user design, but have no clue what they mean? This book is a great introduction into the world of making websites that people love using. It explains the basics of how visitors to your website behave and what about websites can frustrate them.</p>
+<p>Bottom line: don’t design websites that your visitors will hate.</p>
+<h2>The Mythical Man-month: Essays on Software Engineering</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0201835959&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>A  classic, considered the Bible by many in the Software Industry. It was first published in the 1970’s, but probably every word rings more truer today than it ever did before!</p>
+<p>Ever heard these before. It all came from this book!</p>
+<p>“All programmers are optimists: All will go well.”</p>
+<p>“Adding manpower to a late software project makes it later.”</p>
+<p>“Bearing of a child takes nine months, no matter how many women are assigned.”</p>
+<p>“An omelette, promised in two minutes, when not ready in two minutes, the customer has two choices - wait or eat it half-cooked. Software customers also have the same choices.”</p>
+<p>It is unfortunate that we are making the same mistakes in software development year after year. A must read for every project manager and developer.</p>
+<p>As the title says, it is a collection of essays. A damn good one at that. The only downside of the book is the references to 25-year-old technologies. But that takes nothing away from the meat of the book.</p>
+<h2>Soft Skills: The Software Developer’s Life Manual</h2>
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=1617292397&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=softwareyoga-20" width="180px">
+  <br>
+</h2>
+<p>Again, this is not a book about programming. But every programmer should read this.</p>
+<p>A great book on managing “other” aspects of developers life. It’s about everything there could be in your life - It’s about your career, life, body, mind, and believe it or not - soul as well.</p>
+<p>The author himself has followed these techniques and is quite successful at that. His website says that he was able to quit his day job in his early 30’s. The author has culminated his life’s experiences in neatly divided short chapters on Career, Marketing yourself, Learning, Productivity, Finances, Fitness and Spirit. Each chapter is short enough to be read on a coffee break, that makes it a fairly light read.</p>
+<p>You will be a much more satisfied and happier person if you follow the suggestions in this book, not just as a programmer, but as your whole self.</p>
+<h2>The Passionate Programmer: Creating a Remarkable Career in Software Development</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/The-Passionate-Programmer.jpg?ezimgfmt=rs:200x300/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>This book was one of the main programming books that influenced me to treat my career in software development as a business rather than just something I did. The book is full of all kinds of wisdom about how to increase your skills, maximize your time, keep your career and passion alive, and more. I highly recommend reading this book if you want to move beyond programming as just a job.</p>
+<h2>Code: The Hidden Language of Computer Hardware and Software (Developer Best Practices)</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/Code-The-Hidden-Language-of-Computer-Hardware-and-Software-Developer-Best-Practices.jpg?ezimgfmt=rs:200x298/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>This is a fascinating book. Again, it’s not explicitly a programming book, but it is all about how computers work at the very lowest level. After reading this book you’ll understand what the code you are writing is actually doing and how a CPU actually executes your code. This is both a fun and fascinating read.</p>
+<h2>How to Win Friends and Influence People</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/How-To-Win-Friends-and-Influence-People.jpg?ezimgfmt=rs:200x309/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>I really can’t praise this book enough. Yes, it has nothing to do with programming. You might be surprised to find this on a programming books list, but this is a life-changing book. As a software developer, you will deal with people during your entire career. If you learn how to deal with them effectively, you’ll have a much better go of it. So, I highly recommend reading this book. This book changed my life and set me on the path I am on now.</p>
+<h2>Deep Work</h2>
+<h2 align="center">
+  <img src="https://coder-coder.com/wp-content/uploads/2018/09/cal-newport-deep-work.jpg" width="180px">
+  <br>
+</h2>
+<p>This book has truly changed the way that I approach work. While most people lead extremely busy lives and constantly try to do and achieve more, Newport has taken the complete opposite approach of “less is more.”</p>
+<p>As the topic of the book implies, he talks a lot about how he personally has developed a practice of ultra-focused deep work over the years (and his accomplishments are quite impressive). Newport also advocates for cutting out elements from your life that don’t lead you toward your most important goals.</p>
+<p>This book is applicable to web developers and anyone whose work would benefit from long stretches of complete mental focus. I highly, highly recommend it to anyone to read, in any field.</p>
+<h2>The Power of Habit</h2>
+<h2 align="center">
+  <img src="https://coder-coder.com/wp-content/uploads/2018/09/charles-duhigg-power-of-habit.jpg" width="180px">
+  <br>
+</h2>
+<p>The Power of Habit is another book that can be applied to working more efficiently and honestly improving your life habits. Duhigg writes eloquently about how habits (both good and bad) are formed and broken, often without our realization.</p>
+<p>He uses real world, scientific examples to illustrate these concepts in a very persuasive approach. If you’re interested in stopping bad habits, picking up good ones, and increasing your willpower (which he argues can be developed like any other skill!) then you’ll likely benefit from this book.</p>
+<h2>The Complete Software Developer’s Career Guide</h2>
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2015/03/careerguide-amazon.jpg?ezimgfmt=rs:200x298/rscb1/ng:webp/ngcb1" width="180px">
+  <br>
+</h2>
+<p>I wrote this book primarily because there just wasn’t a good book out there—or really any book for that matter—that told software developers everything they needed to know about how to have a successful career in software development and to answer all the common questions I get like:</p>
+<ul>
+<li>How do I get started as a software developer?</li>
+<li>How do I learn a new programming language?</li>
+<li>College, boot camp, self study?</li>
+<li>How do I deal with my asshole boss? My co-workers? Discrimination?</li>
+<li>How do I find a new job? My first job?</li>
+<li>What do I actually need to know to be a software developer?</li>
+<li>How do I MAKE MORE MONEY and advance my career?</li>
+</ul>
+<hr>
+<p><a href="https://dzone.com/articles/books-every-programmer-should-read">Source I</a> - <a href="https://simpleprogrammer.com/best-programming-books-2019/">Source II</a> - <a href="https://coder-coder.com/best-web-development-books/">Source III</a> - <a href="https://dev.to/awwsmm/20-most-recommended-books-for-software-developers-5578">Source IV</a></p></section><hr style="margin-bottom:1.75rem"/><footer><div style="display:flex;margin-bottom:3.5rem;border:2px dashed var(--textLink);padding:0.7rem 0.7rem 0 0.7rem;border-radius:8px"><div class="hidden-mob"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:100px;height:100px;margin-right:0.875rem;margin-bottom:0;min-width:100px;border-radius:10%"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAC9ElEQVQ4y52S20/TUBzH+9f45ItvJmq8JiZqwoP6RJA3A0EicifCuIz7BmM3t45t3dat21q6W9mg3RhQhBkYLCMiig9oJNFEIciyC+26eoAQCcxgSH456Wn6+X0/59cD8fnChQs69wvuYjDHC0JBLIgiWPd54X9hkJYXCgBLZblfv7OpDCeK4lkLqFggIMUcl6fZ9yNGplczLjNNzSW+gHan+KLwQSgVTlY3mSqqVXX16sYWuKYNpWbWQD53wh8qSv7cSRMEaxxBMb0zio+zfnrM4pUOEV+/757kiyQDve2d9Mel5GpkZm16bmNufmM+Fp+gZTJ0YWUTwPuc8M9kMNvd7dRyJBanoonQLEvQXvMYjeKoDmPY1fNh3BerfKGsrZLLm1RPHzc/eFRb/qxdq7BHpxP8EcmfgQEJnNM5/pUEu3LtZcnDekQK375ZefVG5Z37NSqZKYwzu9t7wvGxTycDJSAWYpKlTzr0rdqEM6CuG6gqa+tr0dAoOU1GMmkO/Mji8MG0RfHb5y1qyOEbNCItcmbEPG91s1YiaCXXk58KRacNXoE6St7a/IEOIpYONS4bxXphR88bQgFHfGH+IPPvVYEOmMMnQRDBgQ9LzOX4KMng/aPebgPepaUNVrdME/HRoK9w7AwUIXAlgCjYpzLZbI5PZfb5vACWlXgyaEADAzCLOMZ1OmWTxG0wv1td20vnQIt0dn9qMQExC0uRxWXXZNRI+OyBEBYKMnMsGgggIZKwYMqGflldZ29Vg6qx1Q/DOO4y+DzBhfjC+gfYT0Kw3wuHPAo3NuyyaT3osNOocVm0Huuw1zRBUZp2RUNptbpR4pAp/CZT2GGfoMaUbqfcjfYgOkjpcnYh5mHC1oHou226dpNuiDRKEDVMBpai00ifUtncbZYOYip90I7F/J6IC69o0Je3wq1aDeSNsv7ZGf/bCM6EnaFJGxXUOsnyDvvz1wRNBHA1PCpVWOVqymYPoO4Bqf5uieTS9ebL9zpvlSn/AEBh3gaLizn6AAAAAElFTkSuQmCC" alt="Arman Abkar" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:10%"/><noscript><picture><source srcset="/gatsby-blog/static/c37ae5d0ae67aea94b5d841e578002d2/71eb7/profile-pic.png 1x,
+/gatsby-blog/static/c37ae5d0ae67aea94b5d841e578002d2/92ab1/profile-pic.png 1.5x,
+/gatsby-blog/static/c37ae5d0ae67aea94b5d841e578002d2/b3a76/profile-pic.png 2x" /><img loading="lazy" width="100" height="100" srcset="/gatsby-blog/static/c37ae5d0ae67aea94b5d841e578002d2/71eb7/profile-pic.png 1x,
+/gatsby-blog/static/c37ae5d0ae67aea94b5d841e578002d2/92ab1/profile-pic.png 1.5x,
+/gatsby-blog/static/c37ae5d0ae67aea94b5d841e578002d2/b3a76/profile-pic.png 2x" src="/gatsby-blog/static/c37ae5d0ae67aea94b5d841e578002d2/71eb7/profile-pic.png" alt="Arman Abkar" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div><p style="margin-bottom:0.7rem">Written by<!-- --> <strong style="color:var(--textLink)">Arman Abkar</strong> <!-- -->Software Developer from Los Angeles, California<!-- -->.<!-- --> <br/><p>You can follow me on<!-- --> <a href="https://twitter.com/armanabkar">Twitter</a> or<!-- --> <a href="https://twitter.com/undefined">Instagram</a>, see some of my work on<!-- --> <a href="https://twitter.com/undefined">GitHub</a>, or read more about me on<!-- --> <a href="https://twitter.com/undefined">LinkedIn</a>.<br/>Please feel free to reach me via email at<!-- --> <a href="mailto: armanabkar@gmail.com">armanabkar@gmail.com</a>.</p></p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/gatsby-blog/markdown-test/">← <!-- -->Markdown Test Page</a></li><li><a rel="next" href="/gatsby-blog/solid-principles-in-object-oriented-programming/">SOLID Principles<!-- --> →</a></li></ul></nav></main><footer class="text-center">© <!-- -->2021<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a> by <!-- --> <a href="https://www.armanabkar.ir">Arman Abkar</a>.</footer></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-62251910-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/essential-books-for-programmers/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-15f9b8c919c0be1eb412.js"],"app":["/app-67995abe061465c7547b.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-06e676c3cd7b78941a0b.js"],"component---src-pages-404-js":["/component---src-pages-404-js-a0d18e42b9db3d4f9255.js"],"component---src-templates-blog-list-tsx":["/component---src-templates-blog-list-tsx-7800fc299c02215bdda2.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-b02d96b27e6a5886c4e8.js"]};/*]]>*/</script><script src="/gatsby-blog/polyfill-15f9b8c919c0be1eb412.js" nomodule=""></script><script src="/gatsby-blog/component---src-templates-blog-post-js-b02d96b27e6a5886c4e8.js" async=""></script><script src="/gatsby-blog/547d6747ad54289c4cf011054cc421f3a7a5d337-6f90eab60dfd614a8b87.js" async=""></script><script src="/gatsby-blog/styles-9b6f388623a2ec93d35f.js" async=""></script><script src="/gatsby-blog/app-67995abe061465c7547b.js" async=""></script><script src="/gatsby-blog/framework-885503946ee98043c7bd.js" async=""></script><script src="/gatsby-blog/webpack-runtime-6cd8cae516f473207254.js" async=""></script></body></html>
