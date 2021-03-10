@@ -1,11 +1,11 @@
 @tailwind utilities;
 
 body {
-  --bg: #fafafa;
+  --bg: #F0F3F5;
   --lightBg: #e8e8e8;
   --textNormal: #3b3936;
-  --textTitle: #11100f;
-  --textLink: #2196f3;
+  --textTitle: #1D2930;
+  --textLink: #607D8B;
   --hr: hsla(0, 20%, 1%, 0.2);
 
   background-color: var(--bg);
@@ -18,7 +18,7 @@ body.dark {
   --lightBg: #191919;
   --textNormal: #eeeeee;
   --textTitle: #dcdcdc;
-  --textLink: #2196f3;
+  --textLink: #607D8B;
   --hr: hsla(0, 0%, 100%, 0.2);
 }
 
