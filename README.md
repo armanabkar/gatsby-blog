@@ -2,11 +2,16 @@
 
 A simple blog powered by Gatsby and Markdown
 
-IMAGE
+<h2 align="center">
+  <img src="./screenshot.png" alt="gatsby-blog" width="600px" />
+  <br>
+</h2>
 
+- Markdown based blog with syntax-highlighting
 - Responsive templates. Looking good on any viewport.
-- Fixed sidebar to provide a good navigation experience while reading.
+- Fixed sidebar (or navbar in smaller devices) to provide a good navigation experience while reading.
 - Light/Dark mode.
+- Pagination
 
 See a [demo](https://armanabkar.github.io/gatsby-blog/) hosted on GitHub pages.
 
