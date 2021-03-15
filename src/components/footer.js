@@ -6,7 +6,7 @@ const Footer = () => {
       © {new Date().getFullYear()}, Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a> by {` `}
-      <a href="https://www.armanabkar.ir">Arman Abkar</a>.
+      <a href="/#">Lorem Ipsum</a>.
     </footer>
   )
 }

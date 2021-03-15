@@ -29,6 +29,10 @@ const Bio = () => {
           }
           social {
             twitter
+            linkedin
+            instagram
+            github
+            email
           }
         }
       }
@@ -44,6 +48,7 @@ const Bio = () => {
         border: "2px dashed var(--textLink)",
         padding: "0.7rem 0.7rem 0 0.7rem",
         borderRadius: "8px",
+        alignItems: "center",
       }}
     >
       <div className="hidden-mob">
@@ -53,6 +58,7 @@ const Bio = () => {
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
+            marginTop: 0,
             minWidth: 100,
             borderRadius: `10%`,
           }}
@@ -61,7 +67,7 @@ const Bio = () => {
           }}
         />
       </div>
-      <p style={{ marginBottom: "0.7rem" }}>
+      <p style={{ marginBottom: "0.5rem" }}>
         Written by{" "}
         <strong style={{ color: "var(--textLink)" }}>{author.name}</strong>{" "}
         {author.summary}.{` `}
@@ -76,7 +82,7 @@ const Bio = () => {
           <a href={`https://twitter.com/${social.linkedin}`}>LinkedIn</a>.
           <br />
           Please feel free to reach me via email at{" "}
-          <a href="mailto: armanabkar@gmail.com">armanabkar@gmail.com</a>.
+          <a href={`mailto: ${social.email}`}>{social.email}</a>.
         </p>
       </p>
     </div>

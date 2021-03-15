@@ -3,16 +3,17 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby`,
     author: {
-      name: `Arman Abkar`,
-      summary: `Software Developer from Los Angeles, California`,
+      name: `Lorem Ipsum`,
+      summary: `Software Developer from Earth, Milk Way`,
     },
     description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
     siteUrl: `https://armanabkar.github.io/gatsby-blog`,
     social: {
-      twitter: `armanabkar`,
-      linkedin: `armanabkar`,
-      instagram: `armanabkar`,
-      github: `armanabkar`,
+      twitter: `loremipsum`,
+      linkedin: `loremipsum`,
+      instagram: `loremipsum`,
+      github: `loremipsum`,
+      email: `loremipsum@gmail.com`,
     },
     defaultImage: "images/bg.jpeg",
   },
